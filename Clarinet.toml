@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.simple-encryption]
+path = 'contracts/simple-encryption.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.whistleblower-platform]
 path = 'contracts/whistleblower-platform.clar'
 clarity_version = 2
